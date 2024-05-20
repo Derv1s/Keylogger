@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.presentation {
+  border: 1px solid black;
+  display: inline;
+  width: auto;
+  margin: auto;
+  padding: 0px 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.key-code {
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
+  /* width: 100px; */
+}
+
+.key-color,
+#keyCode {
+  color: rgb(91, 188, 122);
+}
