@@ -22,7 +22,6 @@ document.body.addEventListener('keydown', e => {
   else { logs.push(e.key)};
 
   logsP.textContent = logs.join("");
-  console.log(logs);
 })
 
 
